@@ -1,0 +1,64 @@
+h1{
+    font-family: "Source Serif 4", serif;
+    color:#545454;
+    text-align:center;
+    font-size:70px;
+}
+.gradient-background h2{
+    color:#003C6B;
+    position:fixed;
+    left:50px;
+}
+.gradient-background p{
+    margin:0px 286px 0px 0px;
+}
+.tag{
+    font-family:"Source Serif 4", serif;
+    text-align:center;
+    font-size:50px;
+    color:#003C6B;
+}
+.intro{
+    color: #40514e;
+    display:grid;
+    margin:0px 0px 0px 300px;
+}
+hr{
+    border: 1px solid black;
+}
+#profile{
+    display:grid;
+    height:250px;
+    width:auto;
+    border-radius:50%;
+    margin:20px 0px 0px 600px;
+    
+}
+.gradient-background{
+    display:grid;
+    grid-template-rows:0.75fr 0.25fr 0.25fr;
+    grid-template-columns: ;
+    background: linear-gradient(90deg, #cdffd8, #94b9ff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .intro p{
+    font-size:18px;
+  }
+  .intro li{
+    font-size:16px;
+
+  }
+  #e4f9f5
